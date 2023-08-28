@@ -1,0 +1,368 @@
+
+/**************************************************ANIMATE*/
+
+/*SWIM*/
+@keyframes swim {
+  0% {
+    transform: translateX(0);
+    opacity: .5;
+  }
+  50% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: .7;
+  }
+}
+@-webkit-keyframes swim {
+  0% {
+    transform: translateX(0);
+    opacity: .5;
+  }
+  50% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: .7;
+  }
+}
+@-moz-keyframes swim {
+  0% {
+    transform: translateX(0);
+    opacity: .5;
+  }
+  50% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: .7;
+  }
+}
+@-ms-keyframes move-twink-back swim {
+  0% {
+    transform: translateX(0);
+    opacity: .5;
+  }
+  50% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: .7;
+  }
+}
+
+/*SWIM X*/
+@keyframes swimX {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes swimX {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes swimX {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-ms-keyframes move-twink-back swimX {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*SWIM Y*/
+@keyframes swimY {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes swimY {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes swimY {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-ms-keyframes move-twink-back swimY {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*BOUNCE UP*/
+@keyframes bounce_up {
+	0%, 100%, 20%, 50%, 80% {
+		transform: translateY(0); 
+	}
+	40% {
+		transform: translateY(-14px); 
+	}
+	60% {
+		transform: translateY(-7px); 
+	}
+}
+@-webkit-keyframes bounce_up {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0); 
+  }
+  40% {
+    transform: translateY(-14px); 
+  }
+  60% {
+    transform: translateY(-7px); 
+  }
+}
+@-moz-keyframes bounce_up {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0); 
+  }
+  40% {
+    transform: translateY(-14px); 
+  }
+  60% {
+    transform: translateY(-7px); 
+  }
+}
+@-ms-keyframes move-twink-back bounce_up {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0); 
+  }
+  40% {
+    transform: translateY(-14px); 
+  }
+  60% {
+    transform: translateY(-7px); 
+  }
+}
+
+/*ANIME ROTATE*/
+@keyframes anime_rotate{
+  0%{
+    transform: rotate(0);}
+  100%{
+    transform: rotate(360deg)}
+}
+@-webkit-keyframes anime_rotate{
+  0%{
+    transform: rotate(0);}
+  100%{
+    transform: rotate(360deg)}
+}
+@-moz-keyframes anime_rotate{
+  0%{
+    transform: rotate(0);}
+  100%{
+    transform: rotate(360deg)}
+}
+@-ms-keyframes move-twink-back anime_rotate{
+  0%{
+    transform: rotate(0);}
+  100%{
+    transform: rotate(360deg)}
+}
+
+/*MOVE CLOUDS*/
+@keyframes moveClouds{
+  0%{
+    background-position: 100% 0%}
+  100%{
+    background-position: 0% 100%}
+}
+@-webkit-keyframes moveClouds{
+  0%{
+    background-position: 100% 0%}
+  100%{
+    background-position: 0% 100%}
+}
+@-moz-keyframes moveClouds{
+  0%{
+    background-position: 100% 0%}
+  100%{
+    background-position: 0% 100%}
+}
+@-ms-keyframes move-twink-back moveClouds{
+  0%{
+    background-position: 100% 0%}
+  100%{
+    background-position: 0% 100%}
+}
+
+/*STRIKE*/
+@keyframes strike{
+  0%{
+    opacity: 1}
+  5%{
+    opacity: 0}
+  10%{
+    opacity: 1}
+  15%{
+    opacity: 0}
+  100%{
+    opacity: 0}
+}
+@-webkit-keyframes strike{
+  0%{
+    opacity: 1}
+  5%{
+    opacity: 0}
+  10%{
+    opacity: 1}
+  15%{
+    opacity: 0}
+  100%{
+    opacity: 0}
+}
+@-moz-keyframes strike{
+  0%{
+    opacity: 1}
+  5%{
+    opacity: 0}
+  10%{
+    opacity: 1}
+  15%{
+    opacity: 0}
+  100%{
+    opacity: 0}
+}
+@-ms-keyframes move-twink-back strike{
+  0%{
+    opacity: 1}
+  5%{
+    opacity: 0}
+  10%{
+    opacity: 1}
+  15%{
+    opacity: 0}
+  100%{
+    opacity: 0}
+}
+
+/*FLASH*/
+@keyframes flash{
+  0%{
+    opacity: 0.05}
+  5%{
+    opacity: 0}
+  10%{
+    opacity: 0.1}
+  15%{
+    opacity: 0}
+  100%{
+    opacity: 0}
+}
+@-webkit-keyframes flash{
+  0%{
+    opacity: 0.05}
+  5%{
+    opacity: 0}
+  10%{
+    opacity: 0.1}
+  15%{
+    opacity: 0}
+  100%{
+    opacity: 0}
+}
+@-moz-keyframes flash{
+  0%{
+    opacity: 0.05}
+  5%{
+    opacity: 0}
+  10%{
+    opacity: 0.1}
+  15%{
+    opacity: 0}
+  100%{
+    opacity: 0}
+}
+@-ms-keyframes move-twink-back flash{
+  0%{
+    opacity: 0.05}
+  5%{
+    opacity: 0}
+  10%{
+    opacity: 0.1}
+  15%{
+    opacity: 0}
+  100%{
+    opacity: 0}
+}
+
+/*MOVE THINK BACK*/
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
